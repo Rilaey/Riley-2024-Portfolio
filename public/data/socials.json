@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "logo": "../logos/GithubLogo.png",
+    "altText": "Github logo",
+    "href": "https://github.com/Rilaey"
+  },
+  {
+    "id": 2,
+    "logo": "../logos/LinkedinLogo.png",
+    "altText": "Linkedin logo",
+    "href": "https://www.linkedin.com/in/riley-newhart-667b43128/"
+  },
+  {
+    "id": 3,
+    "logo": "../logos/TwitterLogo.png",
+    "altText": "Twitter logo",
+    "href": "https://x.com/codingWithRiley"
+  }
+]

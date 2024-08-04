@@ -1,0 +1,23 @@
+.navContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  height: 15dvh;
+  background: #222121;
+  position: sticky;
+  top: 0px;
+  z-index: 9999;
+}
+
+.linkContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.nameContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
