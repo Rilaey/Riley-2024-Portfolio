@@ -31,7 +31,7 @@ const ProjectCard = ({
         display: "flex",
         flexDirection: isTablet ? "column" : "row",
         alignItems: "center",
-        padding: isMobile ? "10%" : "7%"
+        padding: isMobile ? "12%" : "7%"
       }}
     >
       {!isTablet && (

@@ -20,7 +20,7 @@ const Contact = ({ targetRef }: ContactProps) => {
         }}
       >
         <Text c="#FBF5F3" fw={800} size="38px" style={{ margin: "15% 0" }}>
-          Contact<span style={{ color: "#DD1155" }}>.</span>
+          Contact <span style={{ color: "#DD1155" }}>.</span>
         </Text>
       </Box>
       <Text c="#FBF5F3" style={{ margin: "3% 0" }} fw={300}>

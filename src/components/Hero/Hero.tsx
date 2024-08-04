@@ -26,7 +26,7 @@ const Hero = ({ targetRef, aboutIntoView }: HeroProps) => {
       <br />
       <Text c="#FBF5F3" fw={500} size={isMobile ? "18px" : "22px"} m={5}>
         A results-driven Web Developer specializing in building and managing
-        websites and web applications that drive overall product success.
+        websites and web applications that drive overall product success
         <span style={{ color: "#DD1155" }}>.</span>
       </Text>
       <br />

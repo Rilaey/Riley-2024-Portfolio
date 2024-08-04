@@ -35,6 +35,7 @@ const Projects = ({ targetRef }: ProjectProps) => {
       </Box>
       <Carousel
         withIndicators
+        loop
         height="100%"
         style={{
           width: isTablet ? "80%" : "70%",

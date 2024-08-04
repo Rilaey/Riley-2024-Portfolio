@@ -24,7 +24,7 @@ const FutureSelf = () => {
         size="24px"
         style={{ borderBottom: "2px dotted #DD1155", paddingBottom: "3%" }}
       >
-        Currently working on<span style={{ color: "#DD1155" }}>.</span>
+        Currently working on <span style={{ color: "#DD1155" }}>.</span>
       </Text>
       <br />
       <Text c="#FBF5F3">

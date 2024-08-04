@@ -28,7 +28,7 @@ const GetToKnowMe = ({ contactIntoView }: GetToKnowMeProps) => {
         size="24px"
         style={{ borderBottom: "2px dotted #DD1155", paddingBottom: "3%" }}
       >
-        Get to know me<span style={{ color: "#DD1155" }}>.</span>
+        Get to know me <span style={{ color: "#DD1155" }}>.</span>
       </Text>
       <br />
       <Text c="#FBF5F3">

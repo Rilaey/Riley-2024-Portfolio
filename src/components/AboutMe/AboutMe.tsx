@@ -24,7 +24,7 @@ const AboutMe = ({ targetRef, contactIntoView }: AboutMeProps) => {
         }}
       >
         <Text c="#FBF5F3" fw={800} size="38px" style={{ margin: "15% 0" }}>
-          About<span style={{ color: "#DD1155" }}>.</span>
+          About <span style={{ color: "#DD1155" }}>.</span>
         </Text>
       </Box>
       <Box
