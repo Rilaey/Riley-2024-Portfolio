@@ -52,7 +52,10 @@ const NavigationBar = ({
   ];
   return (
     <Container fluid className={styles.navContainer}>
-      <Box className={styles.nameContainer}>
+      <Box
+        className={"animate__animated animate__backInLeft"}
+        style={{ display: "flex", flexDirection: "row", alignItems: "center" }}
+      >
         <Image
           src={ProfilePicture}
           h={isMobile || isSmallTablet ? 50 : 75}
@@ -93,6 +96,7 @@ const NavigationBar = ({
                 onMouseEnter={() => setIsActiveLink(link.targetLink)}
                 onMouseLeave={() => setIsActiveLink(null)}
                 onClick={() => link.targetView()}
+                className="animate__animated animate__backInRight"
               >
                 {link.targetLink}
               </Text>

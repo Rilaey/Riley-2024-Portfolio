@@ -1,5 +1,4 @@
 import { Box, Button, Container, Text } from "@mantine/core";
-import styles from "./Hero.module.css";
 import { useResponsiveDesign } from "../../hooks/useResponseDesign";
 
 interface HeroProps {
@@ -17,8 +16,17 @@ const Hero = ({ targetRef, aboutIntoView }: HeroProps) => {
     <Container
       ref={targetRef}
       fluid
-      className={styles.containerEl}
-      style={{ padding: "15%", height: "85%" }}
+      className="animate__animated animate__fadeIn"
+      style={{
+        padding: "15%",
+        height: "85%",
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "center",
+        alignItems: "center",
+        margin: "0 auto",
+        textAlign: "center"
+      }}
     >
       <Text c="#FBF5F3" fw={800} size={isMobile ? "22px" : "30px"}>
         Hello, I'm Riley Newhart<span style={{ color: "#DD1155" }}>.</span>
