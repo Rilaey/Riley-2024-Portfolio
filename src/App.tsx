@@ -17,17 +17,17 @@ function App() {
 
   const { scrollIntoView: aboutIntoView, targetRef: aboutTargetRef } =
     useScrollIntoView<HTMLDivElement>({
-      offset: isMobile ? 130 : 100
+      offset: isMobile ? 130 : 110
     });
 
   const { scrollIntoView: projectIntoView, targetRef: projectTargetRef } =
     useScrollIntoView<HTMLDivElement>({
-      offset: isMobile ? 120 : 90
+      offset: isMobile ? 120 : 110
     });
 
   const { scrollIntoView: contactIntoView, targetRef: contactTargetRef } =
     useScrollIntoView<HTMLDivElement>({
-      offset: isMobile ? 120 : 90
+      offset: isMobile ? 120 : 110
     });
   return (
     <>
