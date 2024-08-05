@@ -2,7 +2,7 @@ import { Container, Text } from "@mantine/core";
 import { useResponsiveDesign } from "../../hooks/useResponseDesign";
 
 const FutureSelf = () => {
-  const { isSmallTablet } = useResponsiveDesign();
+  const { isSmallTablet, isMobile } = useResponsiveDesign();
 
   return (
     <Container
@@ -15,7 +15,7 @@ const FutureSelf = () => {
         margin: "20px",
         backgroundColor: "#222121",
         borderRadius: "25px",
-        padding: "3%"
+        padding: isMobile ? "8%" : "3%"
       }}
     >
       <Text

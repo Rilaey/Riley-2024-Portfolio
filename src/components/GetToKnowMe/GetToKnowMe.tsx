@@ -6,7 +6,7 @@ interface GetToKnowMeProps {
 }
 
 const GetToKnowMe = ({ contactIntoView }: GetToKnowMeProps) => {
-  const { isSmallTablet } = useResponsiveDesign();
+  const { isMobile, isSmallTablet } = useResponsiveDesign();
 
   return (
     <Container
@@ -19,7 +19,7 @@ const GetToKnowMe = ({ contactIntoView }: GetToKnowMeProps) => {
         margin: "20px",
         backgroundColor: "#222121",
         borderRadius: "25px",
-        padding: "3%"
+        padding: isMobile ? "8%" : "3%"
       }}
     >
       <Text
