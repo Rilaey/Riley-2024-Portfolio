@@ -6,6 +6,7 @@
   bottom: 280px;
   left: 10px;
   border-radius: 25px;
+  z-index: 999999;
 }
 
 .socialLink {
